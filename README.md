@@ -3,4 +3,4 @@ this is going to be my own personal diary of sorts keeping track of things that 
 
 as i know this has potential to be part of a portfolio, i might curate it as a data-science-career-journey-tracker, and the experiences written here will likely be more manicured than what i - or anyone else - experience in reality. 
 
-the name is a tongue-in-cheek reference to something - if you know, you know
+the name is a tongue-in-cheek reference to something from a game - if you know, you know
