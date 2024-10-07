@@ -8,7 +8,7 @@ a few notes about this thing:
 - to use the calculator in rstudio: copy and paste the following code chunk in your console, then hit enter. then, type `dnd_stats` and hit enter, and a set of stats you can assign to different attributes of your dnd character will appear.
 - to use the calculator in r: just do the exact same stuff in your workspace
 - etc. 
-(also, if you want to re-roll for a new set of numbers, repeat all of the steps listed above - if you just type `dnd_stats` and hit enter again, it'll give you the same set of numbers as you rolled before. but if you have expertise in r, you probably would have known this already) 
+- (also, if you want to re-roll for a new set of numbers, write 'dnd_stats' to the bottom of the code chunk and rerun all the code, including the function. now every time you run the code chunk, dnd_stats will have different numbers in it) 
 
 ```{r}
 dnd_single_stat <- function(){
