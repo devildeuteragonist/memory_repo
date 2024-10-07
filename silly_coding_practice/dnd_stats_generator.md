@@ -1,4 +1,4 @@
-# dungeons and dragons: rolling stats to assign to our character
+# dungeons and dragons: rolling character stats
 ## a simple calculator by finity_cardinal in 'r'
 i often doodle in class when taking notes, but i'm on my computer and can't draw rn, so i decided to noodle around in rmd to see if i could create a dnd stats calculator instead
 
