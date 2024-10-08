@@ -5,8 +5,8 @@ moderation = ['moderation', 'prudence']
 courage = ['courage', 'fortitude']
 justice = ['justice']
 platonic_virtues = wisdom + moderation + courage + justice
-my_virtue = input()
+my_virtue = input("What skills do you possess?: ")
 if any(my_virtue in x for x in platonic_virtues): 
-    print("thanks ramon harvey")
+    print("nice character you got there")
 else:
-    print("no thanks ramon harvey")
+    print("ehh im looking for something else")
