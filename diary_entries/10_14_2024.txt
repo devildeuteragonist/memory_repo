@@ -4,4 +4,5 @@ you know, the glitz and glamour of creating plain text files in bash has sort of
 it no longer feels challenging and exciting to do it. that's why i guess i fell off on this. 
 
 that's not to say it still isn't a little bit fun; it's just lost its magic. 
-i guess that's a testament to my increasing proficiency in bash. 
+my change in sentiment towards literal plain text is a testament to my increasing proficiency in bash, however- 
+so i'll take it as a positive. 
