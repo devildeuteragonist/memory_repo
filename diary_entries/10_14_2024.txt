@@ -1,0 +1,7 @@
+it's been a while since i actually wrote a diary entry, huh? 
+
+you know, the glitz and glamour of creating plain text files in bash has sort of faded to me.
+it no longer feels challenging and exciting to do it. that's why i guess i fell off on this. 
+
+that's not to say it still isn't a little bit fun; it's just lost its magic. 
+i guess that's a testament to my increasing proficiency in bash. 
