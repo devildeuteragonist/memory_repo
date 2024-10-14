@@ -11,4 +11,4 @@ print(puter_word)
 
 # it reads each individual letter as a separate item in the list
 # yeah i dont want that, but i cant remember how to fix it and i have homework
-# oh well 
+# oh well
