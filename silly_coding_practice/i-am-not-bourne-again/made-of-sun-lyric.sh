@@ -67,11 +67,10 @@ sleep 0.35
 
 echo -e '\n'
 
+string3="L   I   G   H   T"
 for (( i=0; i<${#string3}; i++ )); do
     echo -n -e "${string3:$i:1}"
     sleep 0.033
 done
-
-echo -e '\n'
 
 echo -e '\n'
