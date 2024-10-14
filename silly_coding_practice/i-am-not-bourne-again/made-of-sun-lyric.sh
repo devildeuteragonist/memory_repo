@@ -3,6 +3,8 @@
 # i love the sleep command in bash, so why not take advantage of it to create art that is timed perfectly to music?
 # the following script is for 'made of sun' by kyau and albert, beginning at the 1 minute, 23 second mark.
 # when you execute the script, you should have a countdown. press your play button RIGHT when you see 'START!'
+clear
+
 sleep 1
 echo "3..."
 sleep 1
