@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# platonic cardinal virtues
+# platonic finity_cardinal virtues
 wisdom = ['wisdom', 'temperance']
 moderation = ['moderation', 'prudence']
 courage = ['courage', 'fortitude']
