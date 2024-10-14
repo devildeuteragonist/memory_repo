@@ -58,13 +58,20 @@ done
 echo -e '\n'
 sleep 2.5
 
-echo "T H E"
-sleep 0.4
+string4="T H E"
+for (( i=0; i<${#string4}; i++ )); do
+    echo -n "${string4:$i:1}"
+    sleep 0.01
+done
+sleep 0.35
 
-string3="L  I  G  H  T"
+echo -e '\n'
+
 for (( i=0; i<${#string3}; i++ )); do
-    echo -n "${string3:$i:1}"
+    echo -n -e "${string3:$i:1}"
     sleep 0.033
 done
+
+echo -e '\n'
 
 echo -e '\n'
