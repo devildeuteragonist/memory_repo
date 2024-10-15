@@ -3,4 +3,4 @@ this is going to be my own personal diary of sorts - i might reflect a little bi
 
 the name is a tongue-in-cheek reference to something from a game - if you know, you know
 
-[10/12/2024] i might do some moving around of projects; there are some things that seem to be mutating into their own thing that shouldn't belong here anymore. 
+**NOTE**: some smaller pieces of practice intended to log progress may evolve into their own projects. in such a case, they will be moved to a new repository made especially for them. 
