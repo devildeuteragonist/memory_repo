@@ -14,6 +14,7 @@ echo "1..."
 sleep 1
 echo -e "START! \n*"
 
+clear
 # C H O R U S
 string1="YOU ARE MADE OF SUN"
 for (( i=0; i<${#string1}; i++ )); do
