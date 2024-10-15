@@ -41,7 +41,24 @@ for (( i=0; i<${#string3}; i++ )); do
 done
 
 echo -e '\n'
-sleep 2
+sleep 1
+
+clear
+string5="=========="
+for (( i=0; i<${#string5}; i++ )); do
+    echo -n -e "${string5:$i:1}"
+    sleep 0.040
+done
+
+echo -e '\n'
+
+string6="===================="
+for (( i=0; i<${#string6}; i++ )); do
+    echo -n -e "${string5:$i:6}"
+    sleep 0.030
+done
+
+clear
 
 string1="Y O U  A R E  M A D E  O F  S U N"
 for (( i=0; i<${#string1}; i++ )); do
