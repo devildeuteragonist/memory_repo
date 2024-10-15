@@ -3,6 +3,8 @@
 # i love the sleep command in bash, so why not take advantage of it to create art that is timed perfectly to music?
 # the following script is for 'made of sun' by kyau and albert, beginning at the 1 minute, 23 second mark.
 # when you execute the script, you should have a countdown. press your play button RIGHT when you see 'START!'
+# DISCLAIMER: ASCII art from this source: https://www.asciiart.eu/nature/sun
+
 clear
 
 sleep 1
@@ -76,7 +78,7 @@ for (( i=0; i<${#string2}; i++ )); do
 done
 
 echo -e '\n'
-sleep 2.5
+sleep 2.2
 
 clear
 string4="T H E"
@@ -92,6 +94,34 @@ string3="L   I   G   H   T"
 for (( i=0; i<${#string3}; i++ )); do
     echo -n -e "${string3:$i:1}"
     sleep 0.033
+done
+
+echo -e '\n'
+
+clear
+
+sleep 0.5
+ascii_sun=$(cat << "EOF"
+          |   .
+   `.  *  |     .'
+     `. ._|_* .'  .
+   . * .'   `.  *
+-------|     |-------
+   .  *`.___.' *  .
+      .'  |* `.  *
+    .' *  |  . `.
+        . |
+          | jgs"
+EOF
+)
+echo "$ascii_sun"
+sleep 0.75
+
+clear
+string7="❂  ❂  ❂  ❂"
+for (( i=0; i<${#string7}; i++ )); do
+    echo -n "${string7:$i:2}"
+    sleep 0.2
 done
 
 echo -e '\n'
