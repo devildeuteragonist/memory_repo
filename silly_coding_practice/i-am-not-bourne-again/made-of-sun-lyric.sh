@@ -60,6 +60,7 @@ done
 echo -e '\n'
 sleep 2.5
 
+clear
 string4="T H E"
 for (( i=0; i<${#string4}; i++ )); do
     echo -n "${string4:$i:1}"
