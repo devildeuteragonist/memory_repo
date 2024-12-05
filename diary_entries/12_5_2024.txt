@@ -1,0 +1,12 @@
+trying not to implode with finals and projects. i've completed a semester in my data science major now.
+i've learned a lot, and it's helped remove the spell of the dunning-krueger effect, hehe
+might've mentioned before, but i'm learning very quickly, and the projects that i am doing in class are increasing in complexity;
+therefore, much of the practice that i did at the beginning of this repository's life now feels like it'd be far too easy - 
+like come on...i'm way past seeing pushing text files to my repository as challenging.
+
+the memory repository will probably be dramatically overhauled when i'm able to go on december break; 
+i feel more confident to turn some of my ideas here into fully-fleshed projects. 
+additionally, i feel like i now have a better grasp on how repositories are actually used. 
+
+i see myself using this space enough that i might begin using my local terminal instead of that in codespaces;
+it is simply more comfortable for me. 
