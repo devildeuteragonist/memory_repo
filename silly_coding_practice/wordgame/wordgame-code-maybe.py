@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
 # importing those 1000 most common words
-f = open('1000-common-words.txt', 'r')
-our_words = f.read() 
+with open('1000-common-words.txt', 'r') as f: 
+    our_words = f.read().splitlines() 
 
 # utilising them for our game 
 import random 
