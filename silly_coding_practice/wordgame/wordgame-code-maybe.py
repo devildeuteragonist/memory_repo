@@ -10,11 +10,10 @@ our_words = [word for word in words if len(word) > 3]
     # a list. this is so we don't have to use a for loop because 
     # we are cute and smart like that. 
 
-# utilising them for our game 
+# computer chooses a word  
 import random 
 puter_word = random.choice(our_words)
-print(puter_word)
 
-# it reads each individual letter as a separate item in the list
-# yeah i dont want that, but i cant remember how to fix it and i have homework
-# oh well
+# computer prompts YOU to choose a word 
+print(f"I'm thinking of a word that is {len(puter_word)} letters long...")
+print(f"...that starts with {puter_word[0]}.")
