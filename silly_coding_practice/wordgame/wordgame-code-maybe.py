@@ -15,7 +15,6 @@ import random
 puter_word = random.choice(our_words)
 
 # computer prompts YOU to guess what it's saying 
-print(puter_word)
 print(f"I'm thinking of a word that is {len(puter_word)} letters long...")
 print(f"...that starts with {puter_word[0]}.")
 guessing = input("Enter your guess: ")
@@ -26,3 +25,4 @@ if guessing == puter_word:
     print("You guessed it!")
 else: 
     print("Try again.")
+    print(f"The word starts with these two letters: {puter_word[0:1]}")
