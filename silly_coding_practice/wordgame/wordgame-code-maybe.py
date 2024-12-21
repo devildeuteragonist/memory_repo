@@ -26,3 +26,11 @@ if guessing == puter_word:
 else: 
     print("Try again.")
     print(f"The word starts with these two letters: {puter_word[0:2]}")
+    guessing2 = input("Enter your guess: ")
+    print(guessing2)
+        if guessing2 == puter_word: 
+            print("You guessed it!")
+        else:
+            print("Try again.")
+            print(f"The word starts with these three letters: {puter_word[0:3]}")
+            print(f"It also ends with this letter: {puter_word[-1]}")
