@@ -25,4 +25,4 @@ if guessing == puter_word:
     print("You guessed it!")
 else: 
     print("Try again.")
-    print(f"The word starts with these two letters: {puter_word[0:1]}")
+    print(f"The word starts with these two letters: {puter_word[:1]}")
