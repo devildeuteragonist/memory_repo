@@ -2,6 +2,7 @@
 
 # importing those 1000 most common words
 f = open('1000-common-words.txt', 'r')
+# the issue is, i would need for this 100-common-words to be available anywhere. i can't just import them locally. 
 our_words = f.read() 
 
 # utilising them for our game 
