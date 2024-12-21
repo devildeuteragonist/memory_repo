@@ -14,6 +14,6 @@ our_words = [word for word in words if len(word) > 3]
 import random 
 puter_word = random.choice(our_words)
 
-# computer prompts YOU to choose a word 
+# computer prompts YOU to guess what it's saying 
 print(f"I'm thinking of a word that is {len(puter_word)} letters long...")
 print(f"...that starts with {puter_word[0]}.")
