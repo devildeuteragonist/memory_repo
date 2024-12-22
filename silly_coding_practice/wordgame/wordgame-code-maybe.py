@@ -55,3 +55,7 @@ else:
             print(f"The round for this game is over. The word was '{puter_word}'.")
             time.sleep(1)
             print("It's men versus machines, baby! And I WON!")
+
+# note to self: it's not fair yet, but it's cooking. 
+# might add easter eggs, like i want it to be offended if you can push its buttons 
+# in particular ways. 
