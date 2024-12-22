@@ -8,7 +8,7 @@ with open('1000-common-words.txt', 'r') as f:
 import time
 
 # cleaning the file of words three letters or shorter 
-our_words = [word for word in words if len(word) > 3]
+our_words = [word for word in words if len(word) > 4]
     # there are brackets here so python knows we are dealing with 
     # a list. this is so we don't have to use a for loop because 
     # we are cute and smart like that. 
@@ -32,7 +32,7 @@ if guessing == puter_word:
     print("Ugh. Can't believe you managed to get me this early...")
 else: 
     print("Ha! Try again.")
-    if len(puter_word) > 5:
+    if len(puter_word) > 6:
         print(f"The word starts with these two letters: {puter_word[0:2]}")
         print(f"The word also ends with this letter: {puter_word[-1]}")
         guessing2 = input("Enter your guess: ")
@@ -49,7 +49,7 @@ else:
                 print(f"This round of the game is over. The word was '{puter_word}'.")
                 time.sleep(1)
                 print("I win, you lose. Loser.")
-    if len(puter_word) <= 5: 
+    if len(puter_word) <= 6: 
         print(f"The word also ends with this letter: {puter_word[-1]}")
         guessing3 = input("Enter your guess: ")
         print(guessing3)
