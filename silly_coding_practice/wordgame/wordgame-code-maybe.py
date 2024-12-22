@@ -41,4 +41,4 @@ else:
         if guessing3 == puter_word: 
             print("You win this round...")
         else:
-            print(f"The round for this game is over. The word was {puter_word}'.")
+            print(f"The round for this game is over. The word was '{puter_word}'.")
