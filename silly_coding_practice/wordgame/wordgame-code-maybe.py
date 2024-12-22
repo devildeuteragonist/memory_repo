@@ -25,10 +25,20 @@ if guessing == puter_word:
     print("You guessed it!")
 else: 
     print("Try again.")
-    print(f"The word also ends with this letter: {puter_word[-1]}")
-    guessing2 = input("Enter your guess: ")
-    print(guessing2)
-    if guessing2 == puter_word: 
-        print("You got it!")
-    else: 
-        print(f"This round of the game is over. The word was '{puter_word}'.")
+    if len(puter_word) > 5:
+        print(f"The word starts with these two letters: {puter_word[0:2]}")
+        print(f"The word also ends with this letter: {puter_word[-1]}")
+        guessing2 = input("Enter your guess: ")
+        print(guessing2)
+        if guessing2 == puter_word: 
+            print("You got it!")
+        else: 
+            print(f"This round of the game is over. The word was '{puter_word}'.")
+    if len(puter_word) <= 5: 
+        print(f"The word also ends with this letter: {puter_word[-1]}")
+        guessing3 = input("Enter your guess: ")
+        print(guessing3)
+        if guessing3 == puter_word: 
+            print("You win this round...")
+        else:
+            print(f"The round for this game is over. The word was {puter_word}'.")
