@@ -4,6 +4,9 @@
 with open('1000-common-words.txt', 'r') as f: 
     words = f.read().splitlines() 
 
+# (importing something for a magic trick)
+import time
+
 # cleaning the file of words three letters or shorter 
 our_words = [word for word in words if len(word) > 3]
     # there are brackets here so python knows we are dealing with 
@@ -15,6 +18,10 @@ import random
 puter_word = random.choice(our_words)
 
 # computer prompts YOU to guess what it's saying 
+print("Ya think you can play against me?")
+time.sleep(1)
+print("...")
+time.sleep(0.5)
 print(f"I'm thinking of a word that is {len(puter_word)} letters long...")
 print(f"...that starts with {puter_word[0]}.")
 guessing = input("Enter your guess: ")
@@ -22,7 +29,7 @@ print(guessing)
 
 # return whether guess was correct or incorrect
 if guessing == puter_word: 
-    print("You guessed it!")
+    print("Ugh. Can't believe you managed to get me this early...")
 else: 
     print("Try again.")
     if len(puter_word) > 5:
@@ -31,14 +38,20 @@ else:
         guessing2 = input("Enter your guess: ")
         print(guessing2)
         if guessing2 == puter_word: 
-            print("You got it!")
+            print("Man. I guess you got it.")
         else: 
             print(f"This round of the game is over. The word was '{puter_word}'.")
+            time.sleep(1)
+            print("I win, you lose. Loser.")
     if len(puter_word) <= 5: 
         print(f"The word also ends with this letter: {puter_word[-1]}")
         guessing3 = input("Enter your guess: ")
         print(guessing3)
         if guessing3 == puter_word: 
             print("You win this round...")
+            time.sleep(2)
+            print("BUT I'LL GET YOU NEXT TIME!")
         else:
             print(f"The round for this game is over. The word was '{puter_word}'.")
+            time.sleep(1)
+            print("It's men versus machines, baby! And I WON!")
