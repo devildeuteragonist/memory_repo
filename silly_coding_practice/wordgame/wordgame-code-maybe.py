@@ -40,7 +40,7 @@ else:
         if guessing2 == puter_word: 
             print("Man. I guess you got it.")
         else: 
-            print(f"The word also contains this letter: {puter_word[4]}")
+            print(f"The word also contains this letter: {puter_word[3]}")
             guessing4 = input("Enter your guess: ")
             print(guessing4)
             if guessing4 == puter_word: 
@@ -58,7 +58,7 @@ else:
             time.sleep(2)
             print("BUT I'LL GET YOU NEXT TIME!")
         else:
-            print(f"The word also contains this letter: {puter_word[3]}")
+            print(f"The word also contains this letter: {puter_word[2]}")
             guessing5 = input("Enter your guess: ")
             print(guessing5)
             if guessing5 == puter_word:
