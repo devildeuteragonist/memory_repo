@@ -73,5 +73,4 @@ else:
 # note to self: it's not fair yet, but it's cooking. 
 # might add easter eggs, like i want it to be offended if you can push its buttons 
 # in particular ways. 
-
 # another note to self: maybe make the third hint random. 
