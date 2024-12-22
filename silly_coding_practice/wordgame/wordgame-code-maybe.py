@@ -31,7 +31,7 @@ print(guessing)
 if guessing == puter_word: 
     print("Ugh. Can't believe you managed to get me this early...")
 else: 
-    print("Try again.")
+    print("Ha! Try again.")
     if len(puter_word) > 5:
         print(f"The word starts with these two letters: {puter_word[0:2]}")
         print(f"The word also ends with this letter: {puter_word[-1]}")
