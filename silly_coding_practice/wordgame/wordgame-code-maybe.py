@@ -40,9 +40,15 @@ else:
         if guessing2 == puter_word: 
             print("Man. I guess you got it.")
         else: 
-            print(f"This round of the game is over. The word was '{puter_word}'.")
-            time.sleep(1)
-            print("I win, you lose. Loser.")
+            print(f"The word also contains this letter: {puter_word[4]}")
+            guessing4 = input("Enter your guess: ")
+            print(guessing4)
+            if guessing4 == puter_word: 
+                print("Drat! How could you beat me!?")
+            else: 
+                print(f"This round of the game is over. The word was '{puter_word}'.")
+                time.sleep(1)
+                print("I win, you lose. Loser.")
     if len(puter_word) <= 5: 
         print(f"The word also ends with this letter: {puter_word[-1]}")
         guessing3 = input("Enter your guess: ")
@@ -52,9 +58,17 @@ else:
             time.sleep(2)
             print("BUT I'LL GET YOU NEXT TIME!")
         else:
-            print(f"The round for this game is over. The word was '{puter_word}'.")
-            time.sleep(1)
-            print("It's men versus machines, baby! And I WON!")
+            print(f"The word also contains this letter: {puter_word[3]}")
+            guessing5 = input("Enter your guess: ")
+            print(guessing5)
+            if guessing5 == puter_word:
+                print("You got me beat...")
+                time.sleep(2)
+                print("BUT THAT WON'T HAPPEN AGAIN!")
+            else:
+                print(f"The round for this game is over. The word was '{puter_word}'.")
+                time.sleep(1)
+                print("It's men versus machines, baby! And I WON!")
 
 # note to self: it's not fair yet, but it's cooking. 
 # might add easter eggs, like i want it to be offended if you can push its buttons 
